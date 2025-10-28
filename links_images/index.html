@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Linkies!</title>
+    </head>
+
+    <body>
+        <h1>Homepage</h1>
+
+        <p>
+            We will use the <strong>anchor (a)</strong> element to create links. We have to add the link 
+            as <strong>attribute</strong> using <strong>href</strong> for it to actually work. By default 
+            <strong>target</strong> is <strong>_blank</strong> meaning link will open in current tab. 
+            By making <strong>target</strong> as <strong>_blank</strong> we will open link in new tab/window
+            depending on browser settings. <strong>Attributes</strong> go inside the opening tag of an element
+            and each <strong>attribute</strong> as two parts a <strong>name and value</strong> but however
+            not all attributes require a value.
+        </p>
+
+        <p><strong>rel attribute</strong> should be added for security and privacy when using <strong>_blank.</strong> Values of rel attribute are:</p>
+        <ul>
+            <li>
+                <strong>rel='noopener':</strong> The new tab opened cannot interact with the original tab. This is
+                very crucial to prevent phising attacks, as without this JavaScript can be used in new tab to 
+                manipulate and modify original tab.
+            </li>
+            <li>
+                <strong>rel='noreferrer:</strong> The new page wont know where the user came from. Basically 
+                it hides the referrer.
+            </li>
+        </ul>
+
+        <p>
+            <strong>Absolute links:</strong> links to other website and require scheme://domain/path<br>
+            <strong>Relative links:</strong> links to other pages in your website and require only file path to other page
+        </p>
+
+        <p>Here are some absolute links:</p>
+        <ul>
+            <li>
+                <a href="https://www.theodinproject.com/lessons/foundations-links-and-images">Odin Project- Links and Images</a>
+            </li>
+            <li>
+                <a href="https://music.youtube.com" target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </li>
+            <li>
+                <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer">chatgpt</a>
+            </li>
+        </ul>
+
+        <p>Here is a relative link: <a href="./pages/dog.html">About Page</a></p>
+    </body>
+</html>
