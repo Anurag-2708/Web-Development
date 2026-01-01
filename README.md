@@ -27,6 +27,7 @@ To build a strong foundation in web development by learning through projects and
 | Project | Description | Link |
 |---------|-------------|------|
 | Recipe Project | A simple recipe website built using only HTML | [View Project](./Recipe_Project/index.html) |
+| Flexbox Project | Project to understand and apply knowledge of flexbox. | [View Project](./flexbox/index.html) |
 
 *(More projects will be added as I progress.)*
 
@@ -34,8 +35,8 @@ To build a strong foundation in web development by learning through projects and
 
 ## 🛠️ Tech Stack (as I learn)
 
-- HTML5 ✅
-- CSS3 ⏳
+- HTML ✅
+- CSS ✅
 - JavaScript ⏳
 - Git & GitHub ✅
 - More coming soon…
@@ -49,6 +50,7 @@ I am a student at **Indian Institute of Technology, Patna (IIT Patna)**, and I�
 This repository serves as a portfolio of my progress and growth as I learn new concepts and build real projects.
 
 Linkedin: https://www.linkedin.com/in/anurag-ghosh-619072349/
+Codeforces: https://codeforces.com/profile/Thunder2000
 
 ---
 
