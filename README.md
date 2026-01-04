@@ -26,8 +26,9 @@ To build a strong foundation in web development by learning through projects and
 
 | Project | Description | Link |
 |---------|-------------|------|
-| Recipe Project | A simple recipe website built using only HTML | [View Project](./Recipe_Project/index.html) |
-| Flexbox Project | Project to understand and apply knowledge of flexbox. | [View Project](./flexbox/index.html) |
+| Recipe Project | A simple recipe website built using only HTML | [View Project](https://anurag-2708.github.io/Web-Development/Recipe_Project/index.html) |
+| Flexbox Project | Project to understand and apply knowledge of flexbox | [View Project](https://anurag-2708.github.io/Web-Development/flexbox/index.html) |
+| Landing Page Project | Landing Page made using HTML and CSS | [View Project](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html) |
 
 *(More projects will be added as I progress.)*
 
