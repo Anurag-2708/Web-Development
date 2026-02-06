@@ -38,7 +38,7 @@ To build a strong foundation in web development by learning through projects and
 
 - HTML ✅
 - CSS ✅
-- JavaScript ⏳
+- JavaScript ✅
 - Git & GitHub ✅
 - More coming soon…
 

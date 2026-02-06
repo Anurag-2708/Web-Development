@@ -3,6 +3,8 @@
 This project is the implementation of a simple landing page using **HTML** and **CSS**.  
 It was created as a part of my **WebDevelopment** learning journey following the [The Odin Project](https://www.theodinproject.com) curriculum.
 
+Link to Project 👉 [Landing Page](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html)
+
 ## Image Attributions
 
 - [Header Image](https://wallpaperaccess.com/horizontal-anime)
