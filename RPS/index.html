@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<div class="popup hidden">
+    <div class="popup-box">
+        <h2>Reset Stats?</h2>
+        <p>Are you sure you want to reset all game data?</p>
+        <div class="popup-buttons">
+            <button class="confirm-reset">Confirm</button>
+            <button class="cancel-reset">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div class="header">
+        <img src="./images/logo.png" style="height: 90px; width: 90px;">
+        <h1>Rock Paper Scissors</h1>
+        <div class="header-buttons">
+            <button><a href="https://github.com/Anurag-2708">GitHub</a></button>
+            <button><a href="https://www.linkedin.com/in/anurag-ghosh-619072349/">LinkedIn</a></button>
+        </div>
+    </div>
+
+    <div class="menu-container">
+        <div class="menu">
+            <button class="start-button">Start</button>
+            <button class="rules-button">Rules</button>
+            <button class="stats-button">Stats</button>
+            <button class="reset-button">Reset</button>
+        </div>
+    </div>
+
+    <div class="game-container hidden">
+        <div class="selected-container">
+            <div class="player-choice">
+                <h2>Your choice</h2>
+                <img class="player-img" style="height: 140px; width: 100px;">
+                <h2>Please select one of the below</h2>
+            </div>
+            <div class="computer-choice">
+                <h2>Computer choice</h2>
+                <img class="computer-img" style="height: 140px; width: 100px;">
+                <h2></h2>
+            </div>
+        </div>
+        <div class="choice-container">
+            <button class="rock"><img src="./images/rock.png" style="height: 140px; width: 100px;"></button>
+            <button class="paper"><img src="./images/paper.png" style="height: 140px; width: 100px;"></button>
+            <button class="scissors"><img src="./images/scissors.png" style="height: 140px; width: 100px;"></button>
+        </div>
+        <div class="game-container-buttons">
+            <button class="menu-button">Menu</button>
+            <button class="stats-button">Stats</button>
+        </div>
+    </div>
+
+    <div class="rules-container hidden">
+        <div class="rules">
+            <h1 style="text-decoration: underline;">Game Rules</h1>
+            <p class="intro">
+                Rock Paper Scissors is a simple hand game played between you and the computer.
+            </p>
+            <ul class="rules-list">
+                <li>🪨 <strong>Rock</strong> crushes Scissors</li>
+                <li>📄 <strong>Paper</strong> covers Rock</li>
+                <li>✂️ <strong>Scissors</strong> cuts Paper</li>
+            </ul>
+            <h2 style="text-decoration: underline;">How to Play</h2>
+            <ol class="steps">
+                <li>Click on Rock, Paper, or Scissors</li>
+                <li>The computer will randomly choose its move</li>
+                <li>The winner is decided instantly</li>
+            </ol>
+            <button class="menu-button">Menu</button>
+        </div>
+    </div>
+
+    <div class="stats-container hidden">
+        <div class="stats">
+            <h1>Game Stats</h1>
+            <div class="stats-grid">
+                <div class="card">
+                    <h2>Overall</h2>
+                    <p><span>Total</span><span class="total"></span></p>
+                    <p><span>Wins</span><span class="win"></span></p>
+                    <p><span>Losses</span><span class="loss"></span></p>
+                    <p><span>Draws</span><span class="draw"></span></p>
+                    <p><span>Win %</span><span class="win-percent"></span></p>
+                    <p><span>Loss %</span><span class="loss-percent"></span></p>
+                    <p><span>Draw %</span><span class="draw-percent"></span></p>
+                </div>
+                <div class="card">
+                    <h2>🪨 Rock</h2>
+                    <p><span>Used</span><span class="rock-used"></span></p>
+                    <p><span>Wins</span><span class="rock-win"></span></p>
+                    <p><span>Losses</span><span class="rock-loss"></span></p>
+                    <p><span>Draws</span><span class="rock-draw"></span></p>
+                    <p><span>Win %</span><span class="rock-win-p"></span></p>
+                    <p><span>Loss %</span><span class="rock-loss-p"></span></p>
+                    <p><span>Draw %</span><span class="rock-draw-p"></span></p>
+                </div>
+                <div class="card">
+                    <h2>📄 Paper</h2>
+                    <p><span>Used</span><span class="paper-used"></span></p>
+                    <p><span>Wins</span><span class="paper-win"></span></p>
+                    <p><span>Losses</span><span class="paper-loss"></span></p>
+                    <p><span>Draws</span><span class="paper-draw"></span></p>
+                    <p><span>Win %</span><span class="paper-win-p"></span></p>
+                    <p><span>Loss %</span><span class="paper-loss-p"></span></p>
+                    <p><span>Draw %</span><span class="paper-draw-p"></span></p>
+                </div>
+                <div class="card">
+                    <h2>✂️ Scissors</h2>
+                    <p><span>Used</span><span class="scissors-used"></span></p>
+                    <p><span>Wins</span><span class="scissors-win"></span></p>
+                    <p><span>Losses</span><span class="scissors-loss"></span></p>
+                    <p><span>Draws</span><span class="scissors-draw"></span></p>
+                    <p><span>Win %</span><span class="scissors-win-p"></span></p>
+                    <p><span>Loss %</span><span class="scissors-loss-p"></span></p>
+                    <p><span>Draw %</span><span class="scissors-draw-p"></span></p>
+                </div>
+            </div>
+            <button class="menu-button">Menu</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
