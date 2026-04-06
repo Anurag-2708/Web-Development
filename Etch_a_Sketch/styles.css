@@ -1,0 +1,144 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(33, 33, 33)
+}
+
+.header {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.title {
+    font-size: 50px;
+    font-family: 'Titan One', Arial, sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+}
+
+.content {
+    flex: 3;
+
+    display: flex;
+}
+
+.tools {
+    flex: 1;
+    margin: 30px 80px 80px 150px;
+
+    background-color: rgb(20 20 27);
+    border: rgb(196, 196, 196) 2px solid;
+    border-radius: 30px;
+    box-shadow: -20px 20px 40px 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.tools button {
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    border: rgb(196, 196, 196) 1px solid;
+    background-color: rgb(0 0 0 /0%);
+    color: rgb(196, 196, 196);
+}
+
+.tools button:hover {
+    cursor: pointer;
+    background-color: rgb(14 14 20);
+    box-shadow: -2px 2px 4px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.tools button:active {
+    transform: scale(0.98);
+}
+
+.tools p {
+    font-size: 16px;
+    color: rgb(196, 196, 196);
+}
+
+.grid-container {
+    flex: 2;
+
+    display: flex;
+    padding: 20px 0px 40px 120px;
+}
+
+.grid {
+    height: 500px;
+    width: 500px;
+
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 12px solid;
+    border-radius: 12px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: black 1px solid;
+}
+
+.no-grid .cell {
+    border: none;
+}
+
+.popup {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.popup-box {
+    background: rgb(173, 173, 173);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+.selected {
+    cursor: pointer;
+    background-color: rgb(14 14 20);
+    box-shadow: -2px 2px 4px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.hidden {
+    display: none;
+}

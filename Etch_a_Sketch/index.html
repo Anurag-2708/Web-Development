@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+</head>
+
+<div class="popup hidden">
+    <div class="popup-box">
+        <h2>Enter new dimension of grid</h2>
+        <input class="input" type="number" placeholder="Enter Size">
+        <button class="enter-button">Enter</button>
+        <h4></h4>
+    </div>
+</div>
+
+<body>
+    <div class="header">
+        <div class="title">Etch A Sketch</div>
+    </div>
+    <div class="content">
+        <div class="tools">
+            <div class="tools-buttons">
+                <button class="classic-button selected">Classic</button>
+                <button class="random-button">Random</button>
+                <button class="eraser-button">Eraser</button>
+                <button class="toggle-button">Toggle Lines</button>
+                <button class="resize-button">Resize Board</button>
+                <button class="clear-button">Clear Board</button>
+            </div>
+            <p>Display Your Creative Flair!</p>
+        </div>
+        <div class="grid-container">
+            <div class="grid"></div>
+        </div>
+    </div>
+</body>
+
+</html>
