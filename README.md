@@ -29,7 +29,8 @@ To build a strong foundation in web development by learning through projects and
 | Recipe Project | A simple recipe website built using only HTML | [View Project](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html) |
 | Flexbox Project | Project to understand and apply knowledge of flexbox | [View Project](https://anurag-2708.github.io/Web-Development/Flexbox/index.html) |
 | Landing Page Project | Landing Page made using HTML and CSS | [View Project](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html) |
-| Rock Paper Scissors | Implementation of the popular game Rock Paper Scissors | [View Project](https://anurag-2708.github.io/Web-Development/RPS/index.html)
+| Rock Paper Scissors | Implementation of the popular game Rock Paper Scissors | [View Project](https://anurag-2708.github.io/Web-Development/RPS/index.html) |
+| Etch A Sketch | Tool to create pixel art | [View Project](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html) |
 
 *(More projects will be added as I progress.)*
 
