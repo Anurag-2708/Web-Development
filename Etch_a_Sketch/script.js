@@ -83,6 +83,7 @@ grid.addEventListener("pointermove", e => {
 const classicButton = document.querySelector(".classic-button");
 const randomButton = document.querySelector(".random-button");
 const eraserButton = document.querySelector(".eraser-button");
+const shadingButton = document.querySelector(".shading-button");
 
 // Eraser Logic
 eraserButton.addEventListener("click", e => {
@@ -100,6 +101,7 @@ randomButton.addEventListener("click", e => {
 
     eraserButton.classList.remove("selected");
     classicButton.classList.remove("selected");
+    shadingButton.classList.remove("selected");
 });
 
 // Classic Colour Logic
@@ -109,4 +111,15 @@ classicButton.addEventListener("click", e => {
 
     eraserButton.classList.remove("selected");
     randomButton.classList.remove("selected");
+    shadingButton.classList.remove("selected");
 });
+
+// Shading Logic
+shadingButton.addEventListener("click", e => {
+    type = 'shading';
+    shadingButton.classList.add("selected");
+
+    eraserButton.classList.remove("selected");
+    classicButton.classList.remove("selected");
+    randomButton.classList.remove("selected");
+})

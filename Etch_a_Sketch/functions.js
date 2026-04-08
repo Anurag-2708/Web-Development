@@ -13,7 +13,7 @@ export function initBoard(grid, n) {
         cell.dataset.rValue = 0;
         cell.dataset.gValue = 0;
         cell.dataset.bValue = 0;
-        cell.dataset.coloured = 0; // 0 => No colour, 1 => Random Colour, 2 => Classic colour
+        cell.dataset.type = "none";
 
         grid.appendChild(cell);
     }
@@ -22,15 +22,16 @@ export function initBoard(grid, n) {
 
 export function draw(cell, type) {
     if (type === "eraser") {
-        cell.style.backgroundColor = "rgba(0, 0, 0, 0)"
+        cell.style.backgroundColor = "rgba(0, 0, 0, 0)" // default background colour
         cell.dataset.opacity = 0;
         cell.dataset.rValue = 0;
         cell.dataset.gValue = 0;
         cell.dataset.bValue = 0;
-        cell.dataset.coloured = 0;
+        cell.dataset.type = "none";
     }
     else if (type === "random") {
-        if (Number(cell.dataset.coloured) === 0) {
+        if (cell.dataset.type === "none") {
+            // random colour
             cell.dataset.rValue = Math.floor(Math.random() * 256);
             cell.dataset.gValue = Math.floor(Math.random() * 256);
             cell.dataset.bValue = Math.floor(Math.random() * 256);
@@ -39,14 +40,19 @@ export function draw(cell, type) {
             const green = Number(cell.dataset.gValue);
             const blue = Number(cell.dataset.bValue);
 
-            cell.dataset.coloured = 1;
+            cell.dataset.type = "random";
         }
 
-        if (Number(cell.dataset.coloured) === 1) changeOpacity(cell);
+        if (cell.dataset.type === "random") changeOpacity(cell);
     }
-    else if (Number(cell.dataset.coloured) !== 1) {
-        cell.dataset.coloured = 2;
-        changeOpacity(cell);
+    else if (type === "shading") {
+        if (cell.dataset.type !== "none") changeOpacity(cell);
+    }
+    else {
+        if (cell.dataset.type !== "random") {
+            cell.dataset.type = "classic";
+            changeOpacity(cell);
+        }
     }
 }
 
