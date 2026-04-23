@@ -1,67 +1,31 @@
-# 🌐 My Web Development Journey
+# Web Development Portfolio
 
-Welcome!  
-This repository documents my journey in learning **Web Development** by following the curriculum of [The Odin Project](https://www.theodinproject.com/).
+This repository contains the projects I have completed while following [The Odin Project](https://www.theodinproject.com/dashboard) curriculum. I am using this space to track my progress as I move from basic web structures to complex applications.
 
-I created this repo to keep track of everything I learn — from basic HTML to more advanced projects involving CSS, JavaScript, and beyond.  
-Every folder in this repository represents a project I completed along the way.
+## About Me
 
----
+I am Anurag Ghosh, a student at **Indian Institute of Technology, Patna**. I am currently pursuing my **B.Tech** degree in **Electrical and Electronics Engineering**. My interests include **competitive programming, problem solving, AI/ML models, and Web Development**. 
 
-## 🎯 Goal
+This journey into web development is my way of applying logical thinking to build functional user interfaces.
 
-To build a strong foundation in web development by learning through projects and hands-on practice.
+- [LinkedIn](https://www.linkedin.com/in/anurag-ghosh-619072349/)
+- [Codeforces](https://codeforces.com/profile/Thunder2000)
+- [AtCoder](https://atcoder.jp/users/Thunder2000)
 
----
+## Project Gallery
 
-## 🚧 What You’ll Find Here
+| Project | Description | Core Focus / Skills Learnt | Live Link |
+| :--- | :--- | :--- | :--- |
+| Calculator | A functional calculator with keyboard support | Shunting Yard algorithm, DOM manipulation, State management | [View Demo](https://anurag-2708.github.io/Web-Development/Calculator/index.html) |
+| Etch A Sketch | A browser based sketchpad with multi-mode brushes | ES6 Modules, Pointer events, Dataset state management | [View Demo](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html) |
+| Rock Paper Scissors | A game built to practice JavaScript logic | JavaScript logic and UI updates | [View Demo](https://anurag-2708.github.io/Web-Development/RPS/index.html) |
+| Landing Page | A layout project focused on design | CSS Flexbox and responsive structure | [View Demo](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html) |
+| Recipe Page | A website used to learn page structure | Semantic HTML and linking | [View Demo](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html) |
 
-- Beginner-friendly projects using only **HTML**
-- Gradually progressing into **CSS**, **JavaScript**, and full web apps
-- Clean code, organized project structure, and readable documentation
+## Skills Acquired
 
----
+I have gained experience with HTML5, CSS3, JavaScript (ES6+), and Git. My current focus is on mastering advanced JavaScript and modular code structure before moving into React development.
 
-## 📂 Projects
+## Progress Status
 
-| Project | Description | Link |
-|---------|-------------|------|
-| Recipe Project | A simple recipe website built using only HTML | [View Project](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html) |
-| Flexbox Project | Project to understand and apply knowledge of flexbox | [View Project](https://anurag-2708.github.io/Web-Development/Flexbox/index.html) |
-| Landing Page Project | Landing Page made using HTML and CSS | [View Project](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html) |
-| Rock Paper Scissors | Implementation of the popular game Rock Paper Scissors | [View Project](https://anurag-2708.github.io/Web-Development/RPS/index.html) |
-| Etch A Sketch | Tool to create pixel art | [View Project](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html) |
-
-*(More projects will be added as I progress.)*
-
----
-
-## 🛠️ Tech Stack (as I learn)
-
-- HTML ✅
-- CSS ✅
-- JavaScript ✅
-- Git & GitHub ✅
-- More coming soon…
-
----
-
-## ✨ About Me
-
-Hello! My name is **Anurag Ghosh**.  
-I am a student at **Indian Institute of Technology, Patna (IIT Patna)**, and I’m passionate about web development and problem-solving.  
-This repository serves as a portfolio of my progress and growth as I learn new concepts and build real projects.
-
-Linkedin: https://www.linkedin.com/in/anurag-ghosh-619072349/
-Codeforces: https://codeforces.com/profile/Thunder2000
-
----
-
-## ✅ Status
-
-📚 Actively learning & updating this repository.
-
----
-
-### Thanks for stopping by!  
-Feel free to explore the projects — feedback and suggestions are always welcome.
+I have finished the Foundations path of The Odin Project. I am now beginning the Full Stack JavaScript path with the goal of building a complex real world application.
