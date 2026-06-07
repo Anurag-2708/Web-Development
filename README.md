@@ -14,13 +14,15 @@ This journey into web development is my way of applying logical thinking to buil
 
 ## Project Gallery
 
-| Project | Description | Core Focus / Skills Learnt | Live Link |
-| :--- | :--- | :--- | :--- |
-| Calculator | A functional calculator with keyboard support | Shunting Yard algorithm, DOM manipulation, State management | [View Demo](https://anurag-2708.github.io/Web-Development/Calculator/index.html) |
-| Etch A Sketch | A browser based sketchpad with multi-mode brushes | ES6 Modules, Pointer events, Dataset state management | [View Demo](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html) |
-| Rock Paper Scissors | A game built to practice JavaScript logic | JavaScript logic and UI updates | [View Demo](https://anurag-2708.github.io/Web-Development/RPS/index.html) |
-| Landing Page | A layout project focused on design | CSS Flexbox and responsive structure | [View Demo](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html) |
-| Recipe Page | A website used to learn page structure | Semantic HTML and linking | [View Demo](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html) |
+| Project                       | Description                                                     | Core Focus / Skills Learnt                                            | Live Link                                                                             |
+| :---------------------------- | :-------------------------------------------------------------- | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| Thunder's Kingdom Signup Form | A fantasy-themed signup form with custom styling and validation | HTML Forms, CSS Grid, Form Validation, Custom Fonts, DOM Manipulation | [View Demo](https://anurag-2708.github.io/Web-Development/Signup_form/index.html) |
+| Calculator                    | A functional calculator with keyboard support                   | Shunting Yard Algorithm, DOM Manipulation, State Management           | [View Demo](https://anurag-2708.github.io/Web-Development/Calculator/index.html)      |
+| Etch A Sketch                 | A browser-based sketchpad with multi-mode brushes               | ES6 Modules, Pointer Events, Dataset State Management                 | [View Demo](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html)   |
+| Rock Paper Scissors           | A game built to practice JavaScript logic                       | JavaScript Logic and UI Updates                                       | [View Demo](https://anurag-2708.github.io/Web-Development/RPS/index.html)             |
+| Landing Page                  | A layout project focused on design                              | CSS Flexbox and Responsive Structure                                  | [View Demo](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html)    |
+| Recipe Page                   | A website used to learn page structure                          | Semantic HTML and Linking                                             | [View Demo](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html)     |
+
 
 ## Skills Acquired
 

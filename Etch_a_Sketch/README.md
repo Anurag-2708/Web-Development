@@ -24,4 +24,4 @@ A significant part of the logic involves state management at the cell level. Eac
 - [GitHub](https://github.com/Anurag-2708)
 - [Discord](https://www.discord.com/users/750996926610145311)
 
-**Finished on 8th April, 2024**
+**Finished on 8th April, 2026**
