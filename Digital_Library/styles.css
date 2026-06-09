@@ -1,0 +1,208 @@
+/* CSS Resets */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: 80px;
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+    background-color: whitesmoke;
+
+    display: grid;
+    grid-template-rows: 80px 160px 1fr;
+    gap: 20px;
+    padding: 0px 50px;
+    min-height: 0;
+}
+
+main .info_section {
+    align-self: end;
+}
+
+main .info_section h1 {
+    margin-bottom: 15px;
+}
+
+main .new_book_section {
+    border: gray thin solid;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .display_section {
+    border: gray thin solid;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+form.add_book_form {
+    flex: 1;
+    display: grid;
+    grid-template: 25px 1fr 1fr / repeat(4, 1fr);
+    column-gap: 10px;
+    align-items: end;
+}
+
+form.add_book_form input,
+form.add_book_form select {
+    width: 50%;
+    min-width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: gray thin solid;
+    background-color: whitesmoke;
+}
+
+form.add_book_form .form_buttons {
+    grid-column: -2;
+    width: 50%;
+    min-width: 200px;
+    justify-self: start;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+form.add_book_form .form_buttons button {
+    height: 25px;
+    border: gray 1px solid;
+    font-weight: 600;
+}
+
+form.add_book_form .form_buttons button.clear_button {
+    width: 60px;
+}
+
+form.add_book_form .form_buttons button.add_book_button {
+    width: 80px;
+    background-color: limegreen;
+}
+
+form.add_book_form .form_buttons button:active {
+    transform: scale(0.98);
+}
+
+main .display_section .heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: gray thin solid;
+}
+
+main .display_section .bookshelf {
+    display: grid;
+    grid-auto-rows: 40px;
+    align-items: center;
+
+    flex: 1;
+    overflow: auto;
+}
+
+main .display_section .bookshelf .book {
+    display: grid;
+    grid-template-columns: 80% 1fr 1fr;
+    height: 100%;
+    border-bottom: gray thin solid;
+}
+
+main .display_section .bookshelf .book .book_info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+main .display_section .bookshelf .book .book_info .title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+main .display_section .bookshelf .book .book_info .other_info {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+main .display_section .bookshelf .book button {
+    width: 70%;
+    min-width: 100px;
+    padding: 5px;
+    justify-self: flex-start;
+    align-self: center;
+
+    border-radius: 10px;
+    font-weight: 500;
+
+    transition: all ease 0.2s;
+}
+
+main .display_section .bookshelf .book .status_button.completed {
+    background-color: lightgreen;
+}
+
+main .display_section .bookshelf .book .status_button.not_completed {
+    background-color: lightcoral;
+}
+
+main .display_section .bookshelf .book .remove_button {
+    border: red thin solid;
+    background-color: rgba(253, 184, 184, 0.639);
+}
+
+main .display_section .bookshelf .book button:hover {
+    transform: scale(1.05);
+}
+
+main .display_section .bookshelf .book button:active {
+    transform: scale(0.98);
+}
+
+.empty_message {
+    display: flex;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    height: 80px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.hidden {
+    display: none;
+}

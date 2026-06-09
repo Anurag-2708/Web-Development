@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>My Digital Bookshelf</h1>
+    </header>
+
+    <main>
+        <div class="info_section">
+            <h1>My Books</h1>
+            <p>Add and manage all your books in one place!</p>
+        </div>
+
+        <div class="new_book_section">
+            <h2>Add New Book</h2>
+
+            <form action="#" method="post" class="add_book_form">
+                <label for="title">Title</label>
+                <label for="author">Author</label>
+                <label for="pages">Pages</label>
+                <label for="status">Status</label>
+
+                <input type="text" id="title" name="title" placeholder="A Game of Thrones" required>
+                <input type="text" id="author" name="author" placeholder="George R.R. Martin" required>
+                <input type="number" min="1" id="pages" name="pages" placeholder="694" required>
+                <select name="status" id="status" required>
+                    <option value="completed">Completed</option>
+                    <option value="not_completed">Not Completed</option>
+                </select>
+
+                <div class="form_buttons">
+                    <button type="reset" class="clear_button">Clear</button>
+                    <button type="submit" class="add_book_button">Add Book</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="display_section">
+            <div class="heading">
+                <h2>Your Books</h2>
+                <p class="total_books">Total Books: 0</p>
+            </div>
+
+            <p class="empty_message">No books added yet. Add your first book!</p>
+
+            <div class="bookshelf"></div>
+        </div>
+    </main>
+
+    <footer>© 2026. All rights reserved.</footer>
+</body>
+
+</html>
