@@ -11,16 +11,15 @@
 </head>
 
 <body>
-    <div class="sidebar"></div>
     <div class="main-content">
         <div class="header">
-            <div class="search-container">
+            <form class="search-container">
                 <svg class="search-icon" viewBox="0 0 24 24">
                     <path d="M21 21l-4.35-4.35m1.85-5.65a7.5 7.5 0 1 1-15 0a7.5 7.5 0 0 1 15 0z" fill="none"
                         stroke="currentColor" stroke-width="3" />
                 </svg>
-                <input type="search" id="search" name="search-value" placeholder="New Delhi">
-            </div>
+                <input type="search" id="search" name="search-value" placeholder="Search for A City..." aria-label="Search for a city">
+            </form>
 
             <div class="links">
                 <a href="https://github.com/Anurag-2708" target="_blank" rel="noopener noreferrer"><img src="logos/GitHub_Invertocat_Black.svg" alt="GitHub Logo" width="40px" height="30px"></a>
@@ -29,12 +28,140 @@
             </div>
         </div>
 
+        <div class="main-info">
+            <div class="location">San Francisco, CA</div>
+            <div class="date-time-info">Friday, May 24, 2026 • 9:14am</div>
+            <div class="temp-info">
+                <div class="temperature">18°C</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+            </div>
+            <div class="description">Partly CLoudy</div>
+            <div class="feel">Feels Like 20°</div>
+        </div>
+        <div class="other-info" id="wind">
+            <div class="card">
+                <img src="logos/wind-icon.png" alt="Wind Icon" height="60px" width="60px">
+                <div class="card-text">
+                    <div class="card-header">Wind</div>
+                    <div class="card-info">14km/h NE</div>
+                </div>
+            </div>
+            <div class="card" id="humidity">
+                <img src="logos/humidity-icon.png" alt="Humidity Icon" height="60px" width="60px">
+                <div class="card-text">
+                    <div class="card-header">Humidity</div>
+                    <div class="card-info">25%</div>
+                </div>
+            </div>
+            <div class="card" id="pressure">
+                <img src="logos/pressure-icon.png" alt="Pressure Icon" height="60px" width="60px">
+                <div class="card-text">
+                    <div class="card-header">Pressure</div>
+                    <div class="card-info">1001hPa</div>
+                </div>
+            </div>
+            <div class="card" id="sunrise">
+                <img src="logos/sunrise-icon.png" alt="Sunrise Icon" height="60px" width="60px">
+                <div class="card-text">
+                    <div class="card-header">Sunrise</div>
+                    <div class="card-info">10km</div>
+                </div>
+            </div>
+            <div class="card" id="sunset">
+                <img src="logos/sunset-icon.png" alt="Sunset Icon" height="60px" width="60px">
+                <div class="card-text">
+                    <div class="card-header">Sunset</div>
+                    <div class="card-info">10km</div>
+                </div>
+            </div>
+            <div class="card" id="visibility">
+                <img src="logos/visibility-icon.png" alt="Visibility Icon" height="60px" width="60px">
+                <div class="card-text">
+                    <div class="card-header">Visibility</div>
+                    <div class="card-info">10km</div>
+                </div>
+            </div>
+        </div>
 
+        <div class="forecast">
+            <div class="hourly-forecast-container">
+                <div class="forecast-heading">3 Hourly Forecast</div>
 
-
-        <div class="main-info"></div>
-        <div class="other-info"></div>
-        <div class="forecast"></div>
+                <div class="hourly-forecast-info">
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast-item">
+                        <div class="hourly-forecast-time">Now</div>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <div class="hourly-forecast-temp">18°C</div>
+                        <div class="hourly-forecast-humidity">
+                            <img src="./logos/humidity-icon.png" alt="Humidity Icon" height="20px" width="20px">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 </body>
 

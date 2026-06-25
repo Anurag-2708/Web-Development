@@ -1,33 +1,51 @@
 # Web Development Portfolio
 
-This repository contains the projects I have completed while following [The Odin Project](https://www.theodinproject.com/dashboard) curriculum. I am using this space to track my progress as I move from basic web structures to complex applications.
+This repository contains the projects I have completed while following [The Odin Project](https://www.theodinproject.com/dashboard) curriculum. It serves as a record of my progress as I advance from fundamental web technologies to interactive, data-driven web applications.
 
 ## About Me
 
-I am Anurag Ghosh, a student at **Indian Institute of Technology, Patna**. I am currently pursuing my **B.Tech** degree in **Electrical and Electronics Engineering**. My interests include **competitive programming, problem solving, AI/ML models, and Web Development**. 
+I am **Anurag Ghosh**, a student at the **Indian Institute of Technology (IIT), Patna**, currently pursuing a **B.Tech** in **Electrical and Electronics Engineering**.
 
-This journey into web development is my way of applying logical thinking to build functional user interfaces.
+My interests include **Competitive Programming, Problem Solving, Artificial Intelligence & Machine Learning, and Full Stack Web Development**. Through these projects, I aim to combine logical problem solving with modern web technologies to build responsive, scalable, and user-friendly applications.
 
-- [LinkedIn](https://www.linkedin.com/in/anurag-ghosh-619072349/)
-- [Codeforces](https://codeforces.com/profile/Thunder2000)
-- [AtCoder](https://atcoder.jp/users/Thunder2000)
+* [**LinkedIn**](https://www.linkedin.com/in/anurag-ghosh-619072349/)
+* [**GitHub**](https://github.com/Anurag-2708)
+* [**Codeforces**](https://codeforces.com/profile/Thunder2000)
+* [**AtCoder**](https://atcoder.jp/users/Thunder2000)
 
 ## Project Gallery
 
-| Project                       | Description                                                     | Core Focus / Skills Learnt                                            | Live Link                                                                             |
-| :---------------------------- | :-------------------------------------------------------------- | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| Digital Library               | A dynamic client-side book tracking application                 | Object-Oriented Programming (OOP) Classes, DOM Event Delegation, UUID | [View Demo](https://anurag-2708.github.io/Web-Development/Digital_Library/index.html) |
-| Signup Form | A fantasy-themed signup form with custom styling and validation | HTML Forms, CSS Grid, Form Validation, Custom Fonts, DOM Manipulation | [View Demo](https://anurag-2708.github.io/Web-Development/Signup_form/index.html) |
-| Calculator                    | A functional calculator with keyboard support                   | Shunting Yard Algorithm, DOM Manipulation, State Management           | [View Demo](https://anurag-2708.github.io/Web-Development/Calculator/index.html)      |
-| Etch A Sketch                 | A browser-based sketchpad with multi-mode brushes               | ES6 Modules, Pointer Events, Dataset State Management                 | [View Demo](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html)   |
-| Rock Paper Scissors           | A game built to practice JavaScript logic                       | JavaScript Logic and UI Updates                                       | [View Demo](https://anurag-2708.github.io/Web-Development/RPS/index.html)             |
-| Landing Page                  | A layout project focused on design                              | CSS Flexbox and Responsive Structure                                  | [View Demo](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html)    |
-| Recipe Page                   | A website used to learn page structure                          | Semantic HTML and Linking                                             | [View Demo](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html)     |
+| Project             | Description                                                        | Core Focus / Skills Learnt                                                           | Live Link                                                                             |
+| :------------------ | :----------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| Weather App         | A responsive weather dashboard with live forecasts and geolocation | REST APIs, Async JavaScript, Fetch API, DOM Manipulation, Timezone Handling          | [View Demo](https://anurag-2708.github.io/Web-Development/WeatherApp/index.html)     |
+| Digital Library     | A dynamic client-side book management application                  | Object-Oriented Programming (ES6 Classes), Event Delegation, UUID, Dynamic Rendering | [View Demo](https://anurag-2708.github.io/Web-Development/Digital_Library/index.html) |
+| Signup Form         | A fantasy-themed signup form with custom styling and validation    | HTML Forms, CSS Grid, Form Validation, Responsive Design                             | [View Demo](https://anurag-2708.github.io/Web-Development/Signup_form/index.html)     |
+| Calculator          | A fully functional calculator with keyboard support                | Shunting Yard Algorithm, Expression Parsing, State Management                        | [View Demo](https://anurag-2708.github.io/Web-Development/Calculator/index.html)      |
+| Etch A Sketch       | A browser-based drawing application with multiple brush modes      | ES6 Modules, Pointer Events, Dataset API, Interactive UI                             | [View Demo](https://anurag-2708.github.io/Web-Development/Etch_a_Sketch/index.html)   |
+| Rock Paper Scissors | An interactive browser implementation of the classic game          | JavaScript Logic, DOM Manipulation, Event Handling                                   | [View Demo](https://anurag-2708.github.io/Web-Development/RPS/index.html)             |
+| Landing Page        | A responsive landing page focused on layout and visual design      | CSS Flexbox, Responsive Design, Semantic HTML                                        | [View Demo](https://anurag-2708.github.io/Web-Development/Landing_Page/index.html)    |
+| Recipe Page         | A basic recipe website built while learning HTML fundamentals      | Semantic HTML, Navigation, Document Structure                                        | [View Demo](https://anurag-2708.github.io/Web-Development/Recipe_Page/index.html)     |
 
 ## Skills Acquired
 
-I have gained solid experience with HTML5, CSS3 (Flexbox & Grid), JavaScript (ES6+), and Git. Through recent milestones, I have mastered intermediate JavaScript concepts including **Object-Oriented Programming (OOP) via ES6 Classes**, advanced **DOM optimization via Event Delegation**, dynamic interface states, and data restructuring algorithms.
+Throughout this journey, I have developed practical experience with:
+
+* **Languages:** HTML5, CSS3, JavaScript (ES6+)
+* **Layout:** Flexbox, CSS Grid, Responsive Design
+* **JavaScript:** Object-Oriented Programming, DOM Manipulation, Event Delegation, ES6 Modules, Async/Await, Fetch API
+* **Web APIs:** REST API Integration, JSON Handling, Geolocation, Timezone Processing
+* **Tools:** Git, GitHub, VS Code
 
 ## Progress Status
 
-I have successfully finished the Foundations path of The Odin Project and have advanced into the **Full Stack JavaScript path**. I am currently mastering modular code architectures, object construction patterns, and asynchronous patterns with the goal of transitioning into backend development and React framework integration.
+I have successfully completed the **Foundations** curriculum of **The Odin Project** and am currently progressing through the **Full Stack JavaScript** path.
+
+My current focus includes:
+
+* Advanced JavaScript design patterns
+* Asynchronous programming
+* Backend development with Node.js
+* Express.js
+* Databases
+* React
+* Building full-stack web applications
