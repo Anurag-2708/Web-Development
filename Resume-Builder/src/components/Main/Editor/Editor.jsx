@@ -1,8 +1,9 @@
 import './Editor.css'
+import PersonalInfo from './PersonalInfo/PersonalInfo'
 
-function Editor({ selected }) {
+function Editor({ selected, infoSetters }) {
     if (selected === "Personal Info") {
-        return <div className="editor personal-info-editor">This is the Personal Info Editor</div>
+        return <PersonalInfo infoSetters={infoSetters} />
     }
     else if (selected === "Summary") {
         return <div className="editor summary-editor">This is the Summary Editor</div>

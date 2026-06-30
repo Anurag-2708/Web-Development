@@ -1,5 +1,5 @@
 :root {
-    --card-background-colour: rgba(243, 244, 246, 0.5);
+    --card-background-colour: rgba(243, 244, 246, 0.8);
     --card-border-radius: 5px;
     --card-box-shadow: inset 0px 0px 1px;
 }

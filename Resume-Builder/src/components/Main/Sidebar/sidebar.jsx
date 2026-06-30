@@ -6,7 +6,6 @@ import ExperienceIcon from '../../../assets/experience-icon.png'
 import ProjectIcon from '../../../assets/project-icon.png'
 import SkillsIcon from '../../../assets/skills-icon.png'
 
-import { useState } from 'react'
 
 function Sidebar({ selected, setSelected }) {
     const sections = [
