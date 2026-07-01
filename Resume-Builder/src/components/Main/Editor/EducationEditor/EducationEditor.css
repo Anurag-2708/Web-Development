@@ -1,0 +1,49 @@
+.education-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add-education-button {
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+.education-editor-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-editor-container form {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-auto-rows: 60px;
+    gap: 5px;
+}
+
+.education-editor-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.education-editor-container .full-width {
+    grid-column: 1/-1;
+}
+
+.remove-education-button {
+    height: 35px;
+    border-radius: 5px;
+    border: rgba(255, 0, 0, 0.7) thin solid;
+    background-color: rgba(255, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.remove-education-button:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+    border-color: rgba(255, 0, 0, 0.9);
+}

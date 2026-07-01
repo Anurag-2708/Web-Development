@@ -22,33 +22,26 @@
 
     display: flex;
     flex-direction: column;
-    gap: 10mm;
-}
+    gap: 3mm;
 
-.personal-info-preview {
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2mm;
-}
-
-.full-name-preview {
-    font-size: 10mm;
-    font-weight: bold;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.contact-info-preview {
+    font-family: "Inter", Arial, sans-serif;
     font-size: 4mm;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.6);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.summary-preview {
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 6mm;
+    font-weight: bold;
+}
+
+.section-heading::after {
+    content: "";
     flex: 1;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .education-preview {

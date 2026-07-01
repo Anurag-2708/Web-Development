@@ -1,0 +1,30 @@
+.personal-info-preview {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2mm;
+}
+
+.full-name-preview {
+    font-size: 8mm;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-info-preview {
+    font-size: 4mm;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex;
+    align-items: center;
+    gap: 2mm;
+}
+
+.personal-info-preview a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}

@@ -1,15 +1,25 @@
 import './Editor.css'
-import PersonalInfo from './PersonalInfo/PersonalInfo'
+import Education from './EducationEditor/EducationEditor'
+import PersonalInfo from './PersonalInfoEditor/PersonalInfoEditor'
+import Summary from './SummaryEditor/SummaryEditor'
 
-function Editor({ selected, infoSetters }) {
+function Editor({ selected, infoSetters, setSummary, summaryPlaceholder, education, setEducation }) {
     if (selected === "Personal Info") {
-        return <PersonalInfo infoSetters={infoSetters} />
+        return <PersonalInfo
+            infoSetters={infoSetters}
+        />
     }
     else if (selected === "Summary") {
-        return <div className="editor summary-editor">This is the Summary Editor</div>
+        return <Summary
+            setSummary={setSummary}
+            summaryPlaceholder={summaryPlaceholder}
+        />
     }
     else if (selected === "Education") {
-        return <div className="editor education-editor">This is the Education Editor</div>
+        return <Education
+            education={education}
+            setEducation={setEducation}
+        />
     }
     else if (selected === "Experience") {
         return <div className="editor experience-editor">This is the Experience Editor</div>

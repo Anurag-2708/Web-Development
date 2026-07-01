@@ -1,0 +1,10 @@
+.education-preview {
+    display: flex;
+    flex-direction: column;
+    gap:2mm;
+}
+
+.education-line {
+    display: flex;
+    justify-content: space-between;
+}
