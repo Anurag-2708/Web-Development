@@ -1,0 +1,25 @@
+.projects-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+}
+
+.project-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-title {
+    font-size: large;
+    font-weight: 600;
+}
+
+.project-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 1mm;
+}
+
+.project-description {
+    padding-left: 5mm;
+}

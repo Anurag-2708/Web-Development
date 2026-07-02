@@ -5,14 +5,14 @@ function EducationPreview({ education }) {
 
     function EducationEntry(edu) {
         return (
-            <div className="education-entry">
+            <div key={edu.id} className="education-entry">
                 <div className="education-line">
                     <div>{edu.institute}</div>
                     <div className="year">{edu.startYear} - {edu.endYear}</div>
                 </div>
                 <div className="education-line">
                     <div>{edu.degree}</div>
-                    {(edu.marksTotal === "")? <div>GRade: {edu.marksObtained}</div> : <div>Grade: {edu.marksObtained} / {edu.marksTotal}</div>}
+                    {(edu.marksTotal === "")? <div>Grade: {edu.marksObtained}</div> : <div>Grade: {edu.marksObtained} / {edu.marksTotal}</div>}
                 </div>
             </div>
         );

@@ -11,3 +11,7 @@ main {
         grid-template-columns: 1fr;
     }
 }
+
+.editor textarea {
+    resize: vertical;
+}

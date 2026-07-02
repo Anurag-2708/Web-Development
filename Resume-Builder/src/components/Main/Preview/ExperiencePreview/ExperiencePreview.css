@@ -1,0 +1,25 @@
+.experience-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+}
+
+.experience-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.experience-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 1mm;
+}
+
+.experience-description {
+    padding-left: 5mm;
+}

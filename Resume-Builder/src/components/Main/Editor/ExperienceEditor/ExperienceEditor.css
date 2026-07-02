@@ -1,0 +1,54 @@
+.experience-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add-experience-button {
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+.experience-editor-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-editor-container form {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+.experience-editor-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.experience-editor-container .full-width {
+    grid-column: 1/-1;
+}
+
+.experience-editor-container .form-group p {
+    font-size: 0.9rem;
+
+}
+
+.remove-experience-button {
+    height: 35px;
+    border-radius: 5px;
+    border: rgba(255, 0, 0, 0.7) thin solid;
+    background-color: rgba(255, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.remove-experience-button:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+    border-color: rgba(255, 0, 0, 0.9);
+}

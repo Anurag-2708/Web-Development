@@ -4,7 +4,6 @@ import SummaryIcon from '../../../assets/summary-icon.png'
 import EducationIcon from '../../../assets/education-icon.png'
 import ExperienceIcon from '../../../assets/experience-icon.png'
 import ProjectIcon from '../../../assets/project-icon.png'
-import SkillsIcon from '../../../assets/skills-icon.png'
 
 
 function Sidebar({ selected, setSelected }) {
@@ -14,7 +13,6 @@ function Sidebar({ selected, setSelected }) {
         { name: "Education", icon: EducationIcon },
         { name: "Experience", icon: ExperienceIcon },
         { name: "Projects", icon: ProjectIcon },
-        { name: "Skills", icon: SkillsIcon }
     ]
 
     return <aside className="sidebar">
